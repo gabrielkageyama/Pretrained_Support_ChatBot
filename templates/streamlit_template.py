@@ -1,4 +1,4 @@
-from html_template import bot_template, user_template, css
+from templates.html_template import bot_template, user_template, css
 import streamlit as st
 from utils import get_text, get_chunks, create_vectorstore, conversation_chain
 
